@@ -139,18 +139,11 @@ function App() {
         </div>
 
         {/* Mobile Layout */}
-        <div className="lg:hidden flex flex-col">
-          <div className="mb-8">
-            <div className="flex items-center mb-8">
-              <div className="w-14 h-14 border-2 border-[#F47B20] rounded-lg flex items-center justify-center">
-                <span className="text-[#00B6FF] text-3xl font-exo font-bold">
-                  EZ
-                </span>
+        <div className="lg:hidden flex flex-col justify-center items-center min-h-screen text-center">
+        <div className="mb-8">
+          <div className="flex justify-center items-center mb-8">
+                <img src="EZworks.png" alt="Ezworks Logo" className="h-20" />
               </div>
-              <span className="text-[#00B6FF] text-3xl font-exo font-bold ml-3">
-                Works
-              </span>
-            </div>
 
             <h1 className="text-[#112949] text-3xl font-exo font-medium mb-6">
               Suite Of Business Support Services
